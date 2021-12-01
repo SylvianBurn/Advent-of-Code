@@ -1,9 +1,8 @@
 import sys
-from typing import NoReturn
 
 def main(argv):
     LargerThanPrevious = 0
-    File = open("input", 'r')
+    File = open("input.txt", 'r')
     Numbers = File.readlines()
     x = 0
     y = 0
