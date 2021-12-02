@@ -2,7 +2,7 @@ import sys
 
 def main(argv):
     LargerThanPrevious = 0
-    File = open("input.txt", 'r')
+    File = open("Day 1\input.txt", 'r')
     Numbers = File.readlines()
     x = 0
     y = 0
